@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header{
+    width: 100;
+    height: 100vh;
+     background-image: url(background.jpg);
+    background-size:contain;
+    background-position: center;   
+    font-family: poppins, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: #000;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+.menu a{
+    text-decoration: none;
+    background:crimson;
+    margin-left: 8PX;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 6px;
+
+}
+.menu a:hover{
+    border: 5px solid crimson;
+    background: transparent; 
+}
+.register a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+    background-color: crimson;
+}
+.register a:hover{
+    border: 1PX Solid crimson;
+    background: transparent; 
+}
+.headtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:#fff;
+}
+ .headtext h1{
+    font-size: 4em;
+    
+ }
+ .headtext a{
+    text-decoration: none;
+    background:crimson;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 8px;
+    transition: 0.4s;
+ }
+ .headtext a:hover{
+    border: 1PX Solid crimson;
+    background: transparent; 
+}
